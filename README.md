@@ -7,8 +7,13 @@
 
 ---
 
+## Descripción del Trabajo
+Este proyecto implementa una solución integral de Inteligencia de Negocios (Business Intelligence) basada en una arquitectura medallón (*Bronze, Silver y Gold*) para el análisis y monitoreo de un sistema fotovoltaico de energía solar:
 
-Para el monitoreo y análisis de telemetría de paneles solares fotovoltaicos. Incluye la ingesta de datos crudos (Bronze), procesamiento y limpieza en Python (Silver), modelado dimensional en PostgreSQL (Gold/DWH), y visualizaciones operativas y de negocio en Grafana y Power BI.
+1. *Capa Bronze:* Captura de datos crudos simulados de telemetría solar en intervalos de 5 minutos (data/bronze/telemetria.csv).
+2. *Capa Silver:* Limpieza de datos automatizada, eliminación de nulos/duplicados, filtrado de rangos operacionales e ingesta en PostgreSQL (silver.lectura_5min).
+3. *Capa Gold / DWH:* Agregación diaria de producción de energía (kWh) e indicadores de calidad de datos (dwh.fact_energia_dia).
+4. *Visualización:* Tableros analíticos ejecutivos e interactivos en *Power BI* y *Grafana*.
 
 ---
 
@@ -19,7 +24,12 @@ Para el monitoreo y análisis de telemetría de paneles solares fotovoltaicos. I
    git clone [https://github.com/Tomixddxrt/solarbi-Restrepo-Deossa.git](https://github.com/Tomixddxrt/solarbi-Restrepo-Deossa.git)
    cd solarbi-Restrepo-Deossa
 
-2. **Tabla de responsabilidades y entregables:**
+2. **Requisitos Previos**
+* Python 3.9 o superior instalado.
+* PostgreSQL en ejecución local con una base de datos creada llamada solarbi.
+* Power BI Desktop y Grafana instalados.
+
+3. **Tabla de responsabilidades y entregables:**
 
 | Integrante | Responsabilidades | Entregables en Repositorio |
 | :--- | :--- | :--- |
