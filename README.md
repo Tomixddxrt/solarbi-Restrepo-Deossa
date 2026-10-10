@@ -8,7 +8,7 @@
 ---
 
 
-Pipeline end-to-end para el monitoreo y análisis de telemetría de paneles solares fotovoltaicos. Incluye la ingesta de datos crudos (Bronze), procesamiento y limpieza en Python (Silver), modelado dimensional en PostgreSQL (Gold/DWH), y visualizaciones operativas y de negocio en Grafana y Power BI.
+Para el monitoreo y análisis de telemetría de paneles solares fotovoltaicos. Incluye la ingesta de datos crudos (Bronze), procesamiento y limpieza en Python (Silver), modelado dimensional en PostgreSQL (Gold/DWH), y visualizaciones operativas y de negocio en Grafana y Power BI.
 
 ---
 
