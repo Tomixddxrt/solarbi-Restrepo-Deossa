@@ -1,6 +1,4 @@
-# SolarBI - Pipeline de Datos de Telemetría Solar
 
-## Información del Proyecto
 * **Integrantes:** 
   * Tomás Restrepo Pulgarín
   * Eduardo Deossa Bohórquez
@@ -9,12 +7,12 @@
 
 ---
 
-## Descripción del Proyecto
+
 Pipeline end-to-end para el monitoreo y análisis de telemetría de paneles solares fotovoltaicos. Incluye la ingesta de datos crudos (Bronze), procesamiento y limpieza en Python (Silver), modelado dimensional en PostgreSQL (Gold/DWH), y visualizaciones operativas y de negocio en Grafana y Power BI.
 
 ---
 
-## Pasos para Reproducir la Práctica
+
 
 1. **Clonar el repositorio:**
    ```bash
